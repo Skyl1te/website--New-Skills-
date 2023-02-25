@@ -1,2 +1,2 @@
-# website--New-Skill-
+# website--New-Skills-
 Website layout from Figma layout
