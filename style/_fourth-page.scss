@@ -1,0 +1,50 @@
+.fourth-page {
+	width: 100%;
+	margin-top: 175px;
+
+	.content {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		width: 100%;
+		height: 590px;
+		background: linear-gradient(0deg, #F77BD6, #F77BD6),
+		linear-gradient(328.98deg, #F2B65B 22.51%, #FFE0A5 100.87%),
+		linear-gradient(360deg, #785BF2 -3.35%, #BF5BFC 106.64%);
+		border-radius: 90px;
+		padding: 115px 60px 115px 0;
+
+
+		&__left {
+			height: 100%;
+			width: 400px;
+			background: linear-gradient(0deg, #FFA9E8, #FFA9E8),
+			linear-gradient(328.98deg, #F2B65B 22.51%, #FFE0A5 100.87%),
+			linear-gradient(360deg, #785BF2 -3.35%, #BF5BFC 106.64%);
+			border-radius: 0 50% 50% 0;
+		}
+
+		&__right {
+			width: 60%;
+			height: 100%;
+			font-family: 'Poppins';
+
+			&-title {
+				font-weight: 700;
+				font-size: 65px;
+				line-height: 90px;
+				color: #FBFCFE;
+			}
+
+			&-connotation {
+				font-weight: 500;
+				font-size: 26px;
+				line-height: 45px;
+				color: #FBFCFE;
+				opacity: 0.5;
+				margin-top: 35px;
+			}
+		}
+	}
+}

@@ -1,0 +1,75 @@
+.first-page {
+	position: relative;
+	margin-top: 100px;
+	width: 100%;
+	.container {
+
+	}
+
+	.content {
+		display: flex;
+		justify-content: space-between;
+		height: 560px;
+		width: 100%;
+		font-family: 'Poppins';
+		
+		&__left {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			height: 100%;
+			width: 50%;
+
+			&-title {
+				font-weight: 700;
+				font-size: 60px;
+				line-height: 85px;
+				color: #001C54;
+
+				span {
+					color: #fff;
+					background-color: #F77BD6;
+					border-radius: 45px;
+					font-size: 55px;
+					padding: 10px;
+				}
+			}
+
+			&-connotation {
+				font-size: 26px;
+				line-height: 39px;
+				color: #001C54;
+				opacity: 0.5;
+			}
+
+			&-button {
+				width: 296px;
+				height: 122px;
+				font-size: 24px;
+				text-align: center;
+				color: #fff;
+				background: linear-gradient(137.26deg, #FA9BDF 19.49%, #F360CD 100.46%);
+				box-shadow: 0px 15px 77px rgba(255, 148, 227, 0.69);
+				border-radius: 50px;
+				border: 0;
+			}
+		}
+
+		&__right {
+			position: absolute;
+			right: 0;
+			height: 100%;
+			width: 50%;
+
+			.el {
+				 position: absolute;
+			    border-radius: 100% 0 0 100%;
+			    width: 650px;
+			    height: 100%;
+			    background: #FA9CE2;
+			    right: 0;
+			}
+		}
+	}
+
+}

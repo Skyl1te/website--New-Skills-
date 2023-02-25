@@ -1,0 +1,45 @@
+@import '_header.scss';
+@import '_first-page.scss';
+@import '_second-page.scss';
+@import '_third-page.scss';
+@import '_fourth-page.scss';
+@import '_footer.scss';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+.wrapper {
+	padding: 45px 0;
+}
+
+.or {
+	background: #EF6944;
+}
+
+.pr {
+	background: #C250BF;
+}
+
+.yl {
+	background: #EFC944;
+}
+
+button:hover {
+	opacity: .85;
+	transition: all .2s linear;
+}
+
+button {
+	transition: all .2s linear;
+}
+
+.scroll-page {
+  opacity: 0;
+  transition: opacity .5s linear;
+}
